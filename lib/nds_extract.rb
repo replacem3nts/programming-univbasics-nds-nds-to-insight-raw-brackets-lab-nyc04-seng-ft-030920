@@ -3,7 +3,7 @@ require 'directors_database'
 require 'pp'
 
 def directors_totals(nds)
-  row_index = 0
+  dir_index = 0
   dir_hash = {}
   dir_hash[directors_database] = {}
   
