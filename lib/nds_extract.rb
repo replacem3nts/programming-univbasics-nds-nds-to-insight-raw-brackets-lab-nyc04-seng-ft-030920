@@ -16,5 +16,5 @@ def directors_totals(nds)
     end
     dir_index += 1
   end
-  p dir_hash
+  puts dir_hash
 end
