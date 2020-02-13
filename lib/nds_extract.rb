@@ -5,8 +5,7 @@ require 'pp'
 def directors_totals(nds)
   dir_index = 0
   dir_hash = {}
-  dir_hash[directors_database] = {}
-  
+
   while dir_index < nds.length do
     dir_hash[directors_database][directors_database[row_index][:name]] = 0
     column_index = 0
