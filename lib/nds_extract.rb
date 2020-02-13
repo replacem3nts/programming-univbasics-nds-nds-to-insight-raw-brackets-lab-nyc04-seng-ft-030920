@@ -12,8 +12,8 @@ def directors_totals(nds)
     pic_index = 0
     while pic_index < nds[dir_index][:movies].length do
       dir_hash[dir_nombre] += nds[dir_index][:movies][pic_index][:worldwide_gross]
-      column_index += 1
+      pic_index += 1
     end
-    row_index += 1
+    dir_index += 1
   end
 end
