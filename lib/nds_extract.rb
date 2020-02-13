@@ -7,7 +7,7 @@ def directors_totals(nds)
   dir_hash = {}
   dir_hash[directors_database] = {}
   
-  while row_index < directors_database.length do
+  while dir_index < directors_database.length do
     dir_hash[directors_database][directors_database[row_index][:name]] = 0
     column_index = 0
     while column_index < directors_database[row_index][:movies].length do
